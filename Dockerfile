@@ -4,7 +4,7 @@ RUN mkdir /root/app
 WORKDIR /root/app
 COPY . /root/app/
 
-RUN npm install -g -serve
+RUN npm install serve
 
 EXPOSE 3000
 
