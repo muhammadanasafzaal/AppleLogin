@@ -6,6 +6,6 @@ COPY . /root/app/
 
 RUN npm install serve
 
-EXPOSE 3000
+EXPOSE 8080
 
 CMD serve -s build
